@@ -6,8 +6,6 @@ document.getElementById("dimensions").onkeypress = function (event) {
     }
     let keyPressed = event.keyPressed || event.which;
     //test
-    //test2
-    //test3
     if (keyPressed === 13) {
         let dimensions = event.target.value;
         dimensions = Number(dimensions);
